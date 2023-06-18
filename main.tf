@@ -30,7 +30,7 @@ variable "params" {
     { name = "roboshop.dev.user.mongo_url", value = "mongodb://mongodb-dev.devopspractice73.online:27017/users", type = "String" },
 
 
-    #Password
+    #Passwords never keep in Git Repos. It will keep in parameter store manually
     { name = "roboshop.dev.payment.amqp_pass", value = "roboshop123", type = "SecureString" },
 
   ]
