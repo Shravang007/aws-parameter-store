@@ -30,7 +30,7 @@ variable "params" {
     { name = "roboshop.dev.user.mongo_url", value = "mongodb://mongodb-dev.devopspractice73.online:27017/users", type = "String" },
 
 
-    ### Passwords will be never part of git repos, Usually in organizations we create them nanually. Meaning whom ever have access they will provision these secrets in parameter store.
+    #Password
     { name = "roboshop.dev.payment.amqp_pass", value = "roboshop123", type = "SecureString" },
 
   ]
