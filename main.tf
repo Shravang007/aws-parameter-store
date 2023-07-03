@@ -32,6 +32,8 @@ variable "params" {
 
     #Passwords never keep in Git Repos. It will keep in parameter store manually
     { name = "roboshop.dev.payment.amqp_pass", value = "roboshop123", type = "SecureString" },
+    { name = "roboshop.dev.rabbitmq.amqp_user", value = "roboshop", type = "String" },
+    { name = "roboshop.dev.rabbitmq.amqp_pass", value = "roboshop123", type = "SecureString" },
 
   ]
 }
