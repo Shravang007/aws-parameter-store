@@ -3,7 +3,8 @@ resource "aws_ssm_parameter" "params" {
   name  = var.params[count.index].name
   type  = var.params[count.index].type
   value = var.params[count.index].value
-}
+  key_id = "65440a1c-b9ad-4ac4-9614-e06631037055"
+ }
 
 variable "params" {
   default = [
