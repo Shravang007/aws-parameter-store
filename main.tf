@@ -35,15 +35,15 @@ variable "params" {
     { name = "roboshop.dev.user.mongo_url", value = "mongodb://mongodb-dev.devopspractice73.online:27017/users", type = "String" },
 
     { name = "roboshop.dev.rabbitmq.amqp_user", value = "roboshop", type = "String" },
-    { name = "roboshop.dev.mysql.amqp_username", value = "roboshop", type = "String" },
-    { name = "roboshop.dev.docdb.amqp_username", value = "roboshop", type = "String" },
+    { name = "roboshop.dev.mysql.username", value = "roboshop", type = "String" },
+    { name = "roboshop.dev.docdb.username", value = "roboshop", type = "String" },
 
 
     #Passwords never keep in Git Repos. It will keep in parameter store manually
     { name = "roboshop.dev.payment.amqp_pass", value = "roboshop123", type = "SecureString" },
-    { name = "roboshop.dev.mysql.amqp_password", value = "roboshop123", type = "SecureString" },
-    { name = "roboshop.dev.rabbitmq.amqp_pass", value = "roboshop123", type = "SecureString" },
-    { name = "roboshop.dev.docdb.amqp_password", value = "roboshop123", type = "SecureString" },
+    { name = "roboshop.dev.mysql.password", value = "roboshop123", type = "SecureString" },
+    { name = "roboshop.dev.rabbitmq.pass", value = "roboshop123", type = "SecureString" },
+    { name = "roboshop.dev.docdb.password", value = "roboshop123", type = "SecureString" },
     { name = "roboshop.dev.catalogue.mongo_url", value = "mongodb://roboshop:roboshop123@docdb-dev.cluster-cbvsbeoyxek4.us-east-1.docdb.amazonaws.com:27017/catalogue?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false", type = "SecureString" },
     { name = "roboshop.dev.catalogue.docdb_endpoint", value = "docdb-dev.cluster-cbvsbeoyxek4.us-east-1.docdb.amazonaws.com", type = "String" },
 
