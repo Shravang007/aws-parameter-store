@@ -16,7 +16,7 @@ variable "params" {
 
     { name = "roboshop.dev.cart.redis_host", value = "redis-dev.devopspractice73.online", type = "String" },
     { name = "roboshop.dev.cart.catalogue_host", value = "catalogue-dev.devopspractice73.online", type = "String" },
-    { name = "roboshop.dev.cart.catalogue_port", value = "8080", type = "String" },
+    { name = "roboshop.dev.cart.catalogue_port", value = "80", type = "String" },
 
     { name = "roboshop.dev.catalogue.mongo", value = "true", type = "String" },
 
