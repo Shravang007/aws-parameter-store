@@ -45,7 +45,7 @@ variable "params" {
     { name = "roboshop.dev.rabbitmq.amqp_pass", value = "roboshop123", type = "SecureString" },
     { name = "roboshop.dev.docdb.amqp_password", value = "roboshop123", type = "SecureString" },
     { name = "roboshop.dev.catalogue.mongo_url", value = "mongodb://roboshop:roboshop123@docdb-dev.cluster-cbvsbeoyxek4.us-east-1.docdb.amazonaws.com:27017/catalogue?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false", type = "SecureString" },
-    { name = "roboshop.dev.catalogue.docdb_endpoint", value = "docdb-prod.cluster-cbvsbeoyxek4.us-east-1.docdb.amazonaws.com", type = "String" },
+    { name = "roboshop.dev.catalogue.docdb_endpoint", value = "docdb-dev.cluster-cbvsbeoyxek4.us-east-1.docdb.amazonaws.com", type = "String" },
 
 
   ]
