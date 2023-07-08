@@ -14,7 +14,7 @@ variable "params" {
     { name = "roboshop.dev.frontend.payment_url", value = "https://payment-dev.devopspractice73.online/", type = "String" },
     { name = "roboshop.dev.frontend.shipping_url", value = "https://shipping-dev.devopspractice73.online/", type = "String" },
 
-    { name = "roboshop.dev.cart.redis_host", value = "elasticache-dev.fjiben.ng.0001.use1.cache.amazonaws.com:6379", type = "String" },
+    { name = "roboshop.dev.cart.redis_host", value = "elasticache-dev.fjiben.ng.0001.use1.cache.amazonaws.com", type = "String" },
     { name = "roboshop.dev.cart.catalogue_host", value = "catalogue-dev.devopspractice73.online", type = "String" },
     { name = "roboshop.dev.cart.catalogue_port", value = "80", type = "String" },
 
@@ -31,7 +31,7 @@ variable "params" {
     { name = "roboshop.dev.shipping.db_host", value = "mysql-dev.devopspractice73.online", type = "String" },
 
     { name = "roboshop.dev.user.mongo", value = "true", type = "String" },
-    { name = "roboshop.dev.user.redis_host", value = "elasticache-dev.fjiben.ng.0001.use1.cache.amazonaws.com:6379", type = "String" },
+    { name = "roboshop.dev.user.redis_host", value = "elasticache-dev.fjiben.ng.0001.use1.cache.amazonaws.com", type = "String" },
 #    { name = "roboshop.dev.user.mongo_url", value = "mongodb://mongodb-dev.devopspractice73.online:27017/users", type = "String" },
 
     { name = "roboshop.dev.rabbitmq.amqp_user", value = "roboshop", type = "String" },
