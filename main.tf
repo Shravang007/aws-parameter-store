@@ -34,7 +34,6 @@ variable "params" {
 
     { name = "roboshop.dev.user.mongo", value = "true", type = "String" },
     { name = "roboshop.dev.user.redis_host", value = "elasticache-dev.fjiben.ng.0001.use1.cache.amazonaws.com", type = "String" },
-#    { name = "roboshop.dev.user.mongo_url", value = "mongodb://mongodb-dev.devopspractice73.online:27017/users", type = "String" },
 
     { name = "roboshop.dev.rabbitmq.amqp_user", value = "roboshop", type = "String" },
     { name = "roboshop.dev.mysql.username", value = "roboshop", type = "String" },
