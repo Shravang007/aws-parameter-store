@@ -19,6 +19,8 @@ variable "params" {
     { name = "roboshop.dev.cart.catalogue_port", value = "80", type = "String" },
 
     { name = "roboshop.dev.catalogue.mongo", value = "true", type = "String" },
+    { name = "roboshop.dev.catalogue.docdb_endpoint", value = "docdb-dev.cluster-cq66jjycz9yh.us-east-1.docdb.amazonaws.com", type = "String" },
+
 
     { name = "roboshop.dev.payment.cart_host", value = "cart-dev.devopspractice73.online", type = "String" },
     { name = "roboshop.dev.payment.cart_port", value = "80", type = "String" },
@@ -36,7 +38,11 @@ variable "params" {
 
     { name = "roboshop.dev.rabbitmq.amqp_user", value = "roboshop", type = "String" },
     { name = "roboshop.dev.mysql.username", value = "roboshop", type = "String" },
+    { name = "roboshop.dev.mysql.endpoint", value = "rds-dev.cluster-cq66jjycz9yh.us-east-1.rds.amazonaws.com", type = "String" },
+
     { name = "roboshop.dev.docdb.username", value = "roboshop", type = "String" },
+    { name = "roboshop.dev.user.docdb_endpoint", value = "docdb-dev.cluster-cq66jjycz9yh.us-east-1.docdb.amazonaws.com", type = "String" },
+
 
 
     #Passwords never keep in Git Repos. It will keep in parameter store manually
@@ -45,9 +51,7 @@ variable "params" {
     { name = "roboshop.dev.rabbitmq.pass", value = "roboshop123", type = "SecureString" },
     { name = "roboshop.dev.docdb.password", value = "roboshop123", type = "SecureString" },
     { name = "roboshop.dev.catalogue.mongo_url", value = "mongodb://roboshop:roboshop123@docdb-dev.cluster-cq66jjycz9yh.us-east-1.docdb.amazonaws.com:27017/catalogue?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false", type = "SecureString" },
-    { name = "roboshop.dev.catalogue.docdb_endpoint", value = "docdb-dev.cluster-cq66jjycz9yh.us-east-1.docdb.amazonaws.com", type = "String" },
     { name = "roboshop.dev.user.mongo_url", value = "mongodb://roboshop:roboshop123@docdb-dev.cluster-cq66jjycz9yh.us-east-1.docdb.amazonaws.com:27017/user?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false", type = "SecureString" },
-    { name = "roboshop.dev.user.docdb_endpoint", value = "docdb-dev.cluster-cq66jjycz9yh.us-east-1.docdb.amazonaws.com", type = "String" },
 
 
   ]
