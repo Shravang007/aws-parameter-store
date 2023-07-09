@@ -40,7 +40,7 @@ variable "params" {
     { name = "roboshop.dev.mysql.endpoint", value = "rds-dev.cluster-cq66jjycz9yh.us-east-1.rds.amazonaws.com", type = "String" },
 
     { name = "roboshop.dev.docdb.username", value = "roboshop", type = "String" },
-    { name = "roboshop.dev.user.docdb_endpoint", value = "docdb-dev.cluster-cq66jjycz9yh.us-east-1.docdb.amazonaws.com", type = "String" },
+#    { name = "roboshop.dev.user.docdb_endpoint", value = "docdb-dev.cluster-cq66jjycz9yh.us-east-1.docdb.amazonaws.com", type = "String" },
 
 
 
