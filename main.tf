@@ -60,7 +60,7 @@ variable "params" {
     { name = "roboshop.prod.frontend.payment_url", value = "http://payment-prod.devopspractice73.online/", type = "String" },
     { name = "roboshop.prod.frontend.shipping_url", value = "http://shipping-prod.devopspractice73.online/", type = "String" },
 
-    { name = "roboshop.prod.cart.redis_host", value = "elasticache-prod.fjiben.ng.0001.use1.cache.amazonaws.com", type = "String" },
+    { name = "roboshop.prod.cart.redis_host", value = "elasticache-prod-001.fjiben.0001.use1.cache.amazonaws.com", type = "String" },
     { name = "roboshop.prod.cart.catalogue_host", value = "catalogue-prod.devopspractice73.online", type = "String" },
     { name = "roboshop.prod.cart.catalogue_port", value = "80", type = "String" },
 
@@ -79,7 +79,7 @@ variable "params" {
     { name = "roboshop.prod.shipping.db_host", value = "rds-prod.cluster-cq66jjycz9yh.us-east-1.rds.amazonaws.com", type = "String" },
 
     { name = "roboshop.prod.user.mongo", value = "true", type = "String" },
-    { name = "roboshop.prod.user.redis_host", value = "elasticache-prod.fjiben.ng.0001.use1.cache.amazonaws.com", type = "String" },
+    { name = "roboshop.prod.user.redis_host", value = "elasticache-prod-001.fjiben.0001.use1.cache.amazonaws.com", type = "String" },
 
     { name = "roboshop.prod.rabbitmq.amqp_user", value = "roboshop", type = "String" },
     { name = "roboshop.prod.mysql.username", value = "roboshop", type = "String" },
