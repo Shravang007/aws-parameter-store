@@ -15,17 +15,17 @@ variable "params" {
     { name = "roboshop.dev.frontend.shipping_url", value = "http://shipping-dev.devopspractice73.online/", type = "String" },
 
     { name = "roboshop.dev.cart.redis_host", value = "elasticache-dev.fjiben.ng.0001.use1.cache.amazonaws.com", type = "String" },
-    { name = "roboshop.dev.cart.catalogue_host", value = "catalogue-dev.devopspractice73.online", type = "String" },
-    { name = "roboshop.dev.cart.catalogue_port", value = "80", type = "String" },
+    { name = "roboshop.dev.cart.catalogue_host", value = "catalogue", type = "String" },
+    { name = "roboshop.dev.cart.catalogue_port", value = "8080", type = "String" },
 
     { name = "roboshop.dev.catalogue.mongo", value = "true", type = "String" },
     { name = "roboshop.dev.catalogue.docdb_endpoint", value = "docdb-dev.cluster-cq66jjycz9yh.us-east-1.docdb.amazonaws.com", type = "String" },
 
 
-    { name = "roboshop.dev.payment.cart_host", value = "cart-dev.devopspractice73.online", type = "String" },
-    { name = "roboshop.dev.payment.cart_port", value = "80", type = "String" },
-    { name = "roboshop.dev.payment.user_host", value = "user-dev.devopspractice73.online", type = "String" },
-    { name = "roboshop.dev.payment.user_port", value = "80", type = "String" },
+    { name = "roboshop.dev.payment.cart_host", value = "cart", type = "String" },
+    { name = "roboshop.dev.payment.cart_port", value = "8080", type = "String" },
+    { name = "roboshop.dev.payment.user_host", value = "user", type = "String" },
+    { name = "roboshop.dev.payment.user_port", value = "8080", type = "String" },
     { name = "roboshop.dev.payment.amqp_host", value = "rabbitmq-dev.devopspractice73.online", type = "String" },
     { name = "roboshop.dev.payment.amqp_user", value = "roboshop", type = "String" },
 
